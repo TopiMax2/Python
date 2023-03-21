@@ -62,8 +62,11 @@ def Knn(file,k,test_data):
     
     
 def main():
+    # Enter your own file path !
     file = 'C:/Users/paulc/Desktop/python/IA3-ml_data_iris.txt'
+    # Enter the k size you want to test for (1 to 50 is best with the dataset I used for this : http://archive.ics.uci.edu/ml/datasets/Iris)
     k = 5
+    # Any test data is fine
     test_data = [5.0,1.5,2.4,1.2]
     Knn(file,k,test_data)
     
